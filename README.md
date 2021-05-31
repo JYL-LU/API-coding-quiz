@@ -1,4 +1,3 @@
-<img width="888" alt="start" src="https://user-images.githubusercontent.com/82979870/120147741-ff2a8380-c19b-11eb-8c8f-82dda4ea2278.png">
 # 04 Web APIs: Code Quiz
 
 Instruction:
