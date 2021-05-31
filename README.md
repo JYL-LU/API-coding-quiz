@@ -13,7 +13,8 @@ Css
 Javascript
 
 ## To try the quiz, please check:
-https://jyl-lu.github.io/API-coding-quiz/
+https://jyl-lu.github.io/API-coding-quiz/ or
+https://github.com/JYL-LU/API-coding-quiz
 
 ## Page Preview:
 
