@@ -16,6 +16,6 @@ Javascript
 
 ## Page Preview:
 
-# Contribution
+### Contribution
 
 Made by Jane Jingyi Lu
