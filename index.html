@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body class="start-view">
+    <header class="navbar">
+      <button id="highscore" class="highscore">View High Score</button>
+      <div id="counter" class="counter">Timer: <span id="timer">00</span></div>
+    </header>
+    <div id="start-container" class="container">
+      <div class="start-question">Are you ready for the JavaScript quiz?</div>
+      <p>
+        Instruction: You will have 90 seconds to complete 4 questions. There are
+        100 points in total and each question equals to 25 points. Each time you
+        answer a question wrong, 10 seconds will be deducted from the remaining
+        time as well as your total score. Good luck!
+      </p>
+      <button id="start" class="start-btn">Start</button>
+    </div>
+
+    <div id="question-container" class="container">
+      <div id="quizQues" class="question"></div>
+      <div id="answerBtn" class="answerbtn">
+        <button value="0"></button>
+        <button value="1"></button>
+        <button value="2"></button>
+        <button value="3"></button>
+      </div>
+      <button id="nextBtn" class="nextBtn">Next</button>
+    </div>
+
+    <div id="end-container" class="container">
+      <h2>You have completed the quiz!</h2>
+      <div id="initial-box" class="initial-box">
+        <p>User Inital:</p>
+        <input type="initial" class="initial" id="score-initials" />
+      </div>
+      <button id="scoreSubmit" class="submit">Submit</button>
+    </div>
+
+    <div id="hs-container" class="container">
+      <h2>High Score</h2>
+      <table id="hs-table">
+        <thead>
+          <tr>
+            <th>Initials</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="hs-table-body"></tbody>
+      </table>
+    </div>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
